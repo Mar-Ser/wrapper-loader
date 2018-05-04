@@ -1,0 +1,32 @@
+{
+  "name": "wrapper-loader",
+  "version": "0.0.1",
+  "description": "Wrapper loader for Webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ystrdy/wrapper-loader.git"
+  },
+  "keywords": [
+    "webpack",
+    "loader",
+    "webpack-loader",
+    "wrap",
+    "wrapper",
+    "string wrap",
+    "string wrapper",
+    "function wrap",
+    "function wrapper",
+    "module wrap",
+    "module wrapper"
+  ],
+  "author": "ystrdy <xu1930@qq.com> (https://github.com/ystrdy)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ystrdy/wrapper-loader/issues"
+  },
+  "homepage": "https://github.com/ystrdy/wrapper-loader#readme"
+}
