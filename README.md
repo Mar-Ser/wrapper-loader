@@ -9,19 +9,19 @@ $ npm install --save-dev wrapper-loader
 ## Usage
 ```javascript
 module.exports = {
-    //...
-    module: {
-        rules: [{
-            test: /\.js$/,
-            loader: 'wrapper-loader',
-            options: {
-                template: '/*library: <%= name %>*/export default function(){<%= content %>}',
-                data: {
-                    name: 'test'
-                },
-            }
-        }]
-    }
+  //...
+  module: {
+    rules: [{
+      test: /\.js$/,
+      loader: 'wrapper-loader',
+      options: {
+        template: '/*library: <%= name %>*/export default function(){<%= content %>}',
+        data: {
+          name: 'test'
+        },
+      }
+    }]
+  }
 }
 ```
 
@@ -29,22 +29,22 @@ module.exports = {
 view config [more](https://github.com/tj/ejs)
 ```javascript
 module.exports = {
-    //...
-    module: {
-        rules: [{
-            test: /\.js$/,
-            loader: 'wrapper-loader',
-            options: {
-                template: '/*library: <?= name ?>*/export default function(){<?= content ?>}',
-                data: {
-                    name: 'test'
-                },
-                templateOptions: {
-                    delimiter: '?',
-                }
-            }
-        }]
-    }
+  //...
+  module: {
+    rules: [{
+      test: /\.js$/,
+      loader: 'wrapper-loader',
+      options: {
+        template: '/*library: <?= name ?>*/export default function(){<?= content ?>}',
+        data: {
+          name: 'test'
+        },
+        templateOptions: {
+          delimiter: '?',
+        }
+      }
+    }]
+  }
 }
 ```
 
